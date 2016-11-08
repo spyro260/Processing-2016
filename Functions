@@ -1,0 +1,19 @@
+int x = 0;
+int speed = 5;
+
+void setup()
+{
+   background(#60F5E7);
+   size(400, 400);
+   text("Hello World!", 200, 200);
+   //println("I'm starting up");
+}
+
+void draw()
+{
+  println("You're refrigerator is running");
+  delay(300);
+  fill(#253CF7);
+  rect(x, 100, 40, 40);
+  x = x + speed;
+}
