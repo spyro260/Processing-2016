@@ -1,0 +1,53 @@
+//Size of the Window
+size(500, 800);
+
+//Stroke Weight
+strokeWeight(3);
+
+//Main Square
+rect(50, 50, 400, 700, 7);
+
+//Inner Square
+rect(75, 90, 350, 610, 3);
+
+//Home Button
+ellipse(250, 725, 25, 25);
+
+//Home Button Square
+strokeWeight(2);
+fill(255, 255, 255);
+rect(243, 718, 13, 13);
+
+//Top Block
+fill(153, 158, 168);
+rect(75, 90, 350, 100, 3);
+
+//Status Bar
+strokeWeight(1);
+rect(76, 91, 348, 12); 
+
+//Status Bar Text
+textSize(10);
+fill(0, 0, 0);
+text("iPad", 79, 101);
+
+//Clock
+textSize(50);
+fill(255, 255, 255);
+text("3:30 PM", 150, 165);
+
+//Bottom Block
+fill(153, 158, 168);
+rect(75, 600, 350, 100, 3);
+
+//Slide to Unlock
+rect(196, 635, 100, 30, 8);
+
+//Slide to Unlock Slider
+fill(255, 255, 255);
+rect(197, 636, 30, 28, 8);
+
+//Slide to Text
+textSize(10);
+fill(0, 0, 0);
+text("Slide", 201, 653);
