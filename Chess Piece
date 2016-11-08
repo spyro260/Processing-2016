@@ -1,0 +1,41 @@
+size(400, 400);
+strokeWeight(4);
+
+//top rectangles
+rect(75, 25, 25, 25);
+rect(125, 25, 25, 25);
+rect(175, 25, 25, 25);
+rect(225, 25, 25, 25);
+rect(275, 25, 25, 25);
+
+//top left line
+line(75, 50, 100, 75);
+
+//top right line
+line(275, 75, 300, 50);
+
+//top line
+line(75, 50, 300, 50);
+
+//bottom line
+line(50, 350, 325, 350);
+
+//bottom left
+line(50, 350, 100, 250);
+
+//bottom right
+line(325, 350, 275, 250);
+//middle rectangle
+rect(100, 75, 175, 175);
+//outer circle
+
+fill(0, 0, 255);
+ellipse(187, 165, 150, 150);
+
+//middle circle
+fill(255, 11, 11);
+ellipse(187, 165, 100, 100);
+
+//inner circle
+fill(255, 255, 11);
+ellipse (187, 165, 50, 50);
