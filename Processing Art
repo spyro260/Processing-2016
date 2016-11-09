@@ -1,0 +1,32 @@
+int y1 = 0;
+int x1 = 0;
+int a = 0;
+int b = 0;
+int c = 0;
+int d = 0;
+int speed = 5;
+
+
+void setup()
+{
+    size(1000, 1000);
+    background(#60F5E7);
+    
+}
+
+void draw()
+{
+   delay(1);
+   fill(#FA1212);
+   y1 = (int)(Math.random()*1000);
+   x1 = (int)(Math.random()*1000);
+   a = (int)(Math.random()*255);
+   b = (int)(Math.random()*255);
+   c = (int)(Math.random()*255);
+   d = (int)(Math.random()*100);
+   ellipse(x1, y1, d, d);
+   fill(a, b, c);
+   ellipse(x1, y1, d, d);
+   fill(a, b, c);
+   rect(y1, x1, d, d);
+}
