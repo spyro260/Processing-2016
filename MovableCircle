@@ -1,0 +1,36 @@
+int y = 600;
+int x = 0;
+
+void setup()
+{
+ frameRate(60);
+ size(700, 700);
+}
+
+void draw()
+{
+background(#010103);
+ if(keyPressed)
+ {
+    if(key == CODED)
+      {
+        if(keyCode == LEFT)
+        {
+          x = x-30;
+        }
+        if(keyCode == RIGHT)
+        {
+          x = x+30;
+        }
+        if(keyCode == UP)
+        {
+          y = y-30;
+        }
+        if(keyCode == DOWN)
+        {
+          y = y+30;
+        }
+      }
+ }
+  ellipse(x, y, 40, 40);
+}
